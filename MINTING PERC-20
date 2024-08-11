@@ -1,0 +1,20 @@
+Task 4 : Minting PERC20 Token Script
+First, open Gitpod
+Click on ur potfile dp in the corner
+Click on User Settings - Git Provider
+Here in the github section u will see ur authorised github account username
+Click on the 3 dot in the end of Github and then Click on Edit Permission
+Enable public_repo option then click on Update Permissions
+Now visit : Variables section, Click on New Variables
+Write PRIVATE_KEY in the Name section
+Write your private key in the Value section
+Write */* in the Scope section
+Now go to Github
+Create a repository and name it Swisstronik 4 and copy the repository link and save it somewhere
+Make sure you are creating this repository from the github account which is authorised to Gitpod
+Now go back to Gitpod
+Paste your copied Github Repository link and configure
+If it take more than the usual time, you should try this on Incognito tab
+Make sure to request $SWTR Faucet from this site
+Paste the below command in terminal
+wget https://raw.githubusercontent.com/dxzenith/Swisstronic-Script/main/perc20.sh && chmod +x perc20.sh && ./perc20.sh
